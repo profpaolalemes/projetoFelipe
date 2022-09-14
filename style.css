@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: cursive;
+}
+
+.perfil {
+    padding: 10px;
+    background: linear-gradient(#B0E0E6 0%, #87CEEB 100%);
+}
+
+.foto {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.bio {
+    padding: 10px;
+    color: #000080;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #000080;
+}
+
+
+
+.menu {
+    color: #000080;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+}
+
+.link {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.nome {
+    font-size: 70px;
+    font-family: 'Ms Madi', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #000080;
+}
+
+li a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
